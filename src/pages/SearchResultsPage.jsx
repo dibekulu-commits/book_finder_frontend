@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 import axios from 'axios';
 import styled from 'styled-components';
 import BookCard from '../components/BookCard';
+import Page from '../components/Page';
 
 const Container = styled.div`
   padding: 2rem;
@@ -55,6 +56,7 @@ const SearchResultsPage = () => {
   }, [query.toString()]); // Re-run when query string changes
 
   return (
+    <Page>
     <Container>
       <Title>Search Results</Title>
       {loading && <p>Loading...</p>}
@@ -66,6 +68,7 @@ const SearchResultsPage = () => {
         ))}
       </Flex>
     </Container>
+    </Page>
   );
 };
 

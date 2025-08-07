@@ -53,7 +53,7 @@ const SearchResultsPage = () => {
     };
 
     fetchBooks();
-  }, [query.toString()]); // Re-run when query string changes
+  }, [query.toString()]); 
 
   return (
     <Page>

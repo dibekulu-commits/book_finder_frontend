@@ -1,9 +1,8 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const Nav = styled.nav`
-  background-color: #1e293b;
+  background-color: #6d211cff;
   color: white;
   padding: 1rem 2rem;
   display: flex;

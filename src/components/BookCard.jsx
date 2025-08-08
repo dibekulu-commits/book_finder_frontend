@@ -33,7 +33,7 @@ const Info = styled.p`
 `;
 
 const Button = styled.button`
-  background-color: #6d211cff
+  background-color: #81c2e7ff
   color: white;
   border: none;
   padding: 0.5rem 1rem;

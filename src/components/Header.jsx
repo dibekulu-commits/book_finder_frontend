@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const StyledImage = styled.img`
  width:100%;
- height:30%
+ height:25%
 `
 
 const Header = () => {

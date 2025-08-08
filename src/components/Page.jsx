@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const StyledPage = styled.div`
-  height: 100vh;
-  max-width: 1100px;
+  height: 95vh;
+  max-width: 1000px;
   margin: 0 auto;
   background-color: #f4f4f4;
   display: flex;
